@@ -1,0 +1,7 @@
+pure_pursuit:
+  look_ahead_distance: 0.4
+  vel_lin_max: 0.4
+  K_theta: 4
+  alpha: 4
+  rate : 10
+  frame: odom
