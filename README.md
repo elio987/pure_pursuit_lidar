@@ -1,7 +1,7 @@
 # pure_pursuit_lidar
 - Recuerda copiar los paquetes en el src de tu worspace de ROS y hacer el catkin_make y el source devel/setup.bash.<br>
 Estos paquetes mueven el robot de dos ruedas en un entorno de gazebo con paredes, yendo a una serie de puntos usando un arbol de desiciones y el algoritmo PurePursuit.
-- Antes que nadainstala los sigueintes paquetes de ros:
+- Antes que nada instala los siguientes paquetes de ros:
 ```
 sudo apt-get install ros-melodic-map-server
 ```
