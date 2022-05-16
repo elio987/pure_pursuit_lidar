@@ -27,5 +27,9 @@ waypoints: [0, 0, 0, 4, 2, 5, 4, 2, 5, 1, 7, 1, 8.5, 3.5, 7, 7]
 ```
 /puzzlebot_nav2d/src/pure_persuit_final.py
 ```
+- Para poder modificar parametros como la velocidad del robot o constantes de control ve al archivo:
+```
+/puzzlebot_nav2d/config/params.yalm
+```
 - Arbol usado:<br>
 ![Alt text](PyTree.drawio.png?raw=true "Behaviour Tree")
