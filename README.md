@@ -23,5 +23,5 @@ roslaunch puzzlebot_nav2d pure_pursuit.launch
 ```
 waypoints: [0, 0, 0, 4, 2, 5, 4, 2, 5, 1, 7, 1, 8.5, 3.5, 7, 7]
 ```
-- Arbol usado:
+- Arbol usado:<br>
 ![Alt text](PyTree.drawio.png?raw=true "Behaviour Tree")
