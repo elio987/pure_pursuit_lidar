@@ -1,7 +1,6 @@
 # pure_pursuit_lidar
 - Recuerda copiar los paquetes en el src de tu worspace de ROS y hacer el catkin_make y el source devel/setup.bash.<br>
-Estos paquetes mueven el robot de dos ruedas en un entorno de gazebo con paredes, yendo a una serie de puntos usando un arbol de desiciones<br>
-y el algoritmo PurePursuit.
+Estos paquetes mueven el robot de dos ruedas en un entorno de gazebo con paredes, yendo a una serie de puntos usando un arbol de desiciones y el algoritmo PurePursuit.
 - Para poder correr el codigo corre:
 
 ```
