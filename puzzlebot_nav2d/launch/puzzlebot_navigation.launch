@@ -5,7 +5,7 @@
   <arg name="base_frame" default="odom" />
   <arg name="robot_init_x" default="-4.0"/>
   <arg name="robot_init_y" default="-4.0"/>
-  <arg name="robot_init_phi" default="1.57"/>
+  <arg name="robot_init_phi" default="0"/>
   <!-- The true initial position is x=-4, y=-4, phi = 0, because the robot is launched
        heading in the x-direction of the gazebo world, whose coordinate system
        coincides with the map. See puzzlebot_gazebo/launch/puzzlebot_room.launch
