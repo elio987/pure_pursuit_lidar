@@ -513,6 +513,7 @@ def create_behavior_tree(waypoints, frame, look_ahead_dist, vel_max,
 
 
 if __name__ == '__main__':
+    #We read the waypoints file
     rospy.init_node('Pure_pursuit')
     L = rospy.get_param("/pure_pursuit/look_ahead_distance")
     vmax = rospy.get_param("/pure_pursuit/vel_lin_max")
@@ -522,15 +523,15 @@ if __name__ == '__main__':
     rate = rospy.get_param("/pure_pursuit/rate")
     waypoints = rospy.get_param("/waypoints")
     waypoints = np.reshape(waypoints, (-1, 2))
-    #waypoints = [[0,0],[0,4],[4,4],[4,0]]
     waypoints_ps = []
+    #We add the waypoints inside a list
     for wp_ in waypoints:
         p = PointStamped()
         p.header.frame_id = frame
         p.point.x = wp_[0]
         p.point.y = wp_[1]
         waypoints_ps.append(p)
-
+    #We create the behaviour tree
     bt_tree = create_behavior_tree(waypoints_ps, frame, L, vmax,
                 Kth, alpha)
 
